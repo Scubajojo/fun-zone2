@@ -1,4 +1,4 @@
-baseurl         = "https://agitated-bhabha-0b2861.netlify.com/"
+baseurl         = ""
 theme           = "casper-two"
 languageCode    = "en-US"
 disqusShortname = ""
