@@ -1,0 +1,58 @@
+baseurl         = "https://example.scubajojo.com"
+theme           = "casper-two"
+languageCode    = "en-US"
+disqusShortname = ""
+paginate        = 6
+#SectionPagesMenu = "main"
+
+[params]
+  title       = "Example Site"
+  subtitle    = "My Awesome Site"
+
+  cover       = "uploads/header.jpg"
+  description = "My Awesome Site."
+  metaDescription = ""
+  googleAnalytics = ""
+  customCSS = []
+  RSSLink = ""
+
+
+  fbName = ""
+  githubName = "Scubajojo"
+
+  logo = ""
+  
+
+  author = "SJ"
+  authorAvatar = ""
+  authorLocation = ""
+  authorWebsite = ""
+  authorDescription = ""
+
+  pageNotFoundTitle = "404 - Page not found"
+
+  #casper or caspertwo
+  singleViewStyle = "caspertwo"
+
+[permalinks]
+  post = "/:slug/"
+
+[[menu.main]]
+  name = "Main"
+  url = "/"
+  weight = 200
+
+[[menu.main]]
+  name = "Projects"
+  url = "/tags/project/"
+  weight = 100
+
+[[menu.main]]
+  name = "My Life"
+  url = "/categories/life/"
+  weight = 99
+
+[[menu.main]]
+  name = "Google"
+  url = "https://google.com/"
+  weight = 95
