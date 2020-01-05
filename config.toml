@@ -1,4 +1,4 @@
-baseurl         = ""
+baseurl         = "https://vigorous-lewin-8ad7ec.netlify.com/"
 theme           = "casper-two"
 languageCode    = "en-US"
 disqusShortname = ""
